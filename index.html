@@ -1,122 +1,90 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Desen Yuan by desenyuan</title>
-
+    <title>Desen Yuan - Personal Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-29643011-3', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-    <!-- New GA4 tracking code, see https://support.google.com/analytics/answer/10271001#analyticsjs-enable-basic --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNJD50R0Z7"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-GNJD50R0Z7');
-    </script>
-
-    <!-- For all browsers -->
     <link rel="stylesheet" href="assets/css/academicons.min.css"/>
     <link rel="stylesheet" href="assets/css/academicons.css"/>
-
+    <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
     <style>
-      button.accordion {
-      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      cursor: pointer;
-      padding: 0px;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 100%;
-      transition: 0.3s;
-      background-color: #f8f8f8;
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
       }
-      button.accordion.active, button.accordion:hover {
-      background-color: #f8f8f8;
+      .header {
+        text-align: center;
+        padding: 20px;
+        background: #0073e6;
+        color: white;
+        border-radius: 10px;
       }
-      button.accordion:after {
-      content: " [+] ";
-      font-size: 90%;
-      color:#777;
-      float: left;
-      margin-left: 1px;
+      h1 { font-size: 26px; }
+      h2 { 
+        font-size: 22px; 
+        margin-top: 20px; 
+        border-bottom: 2px solid #ddd; 
+        padding-bottom: 5px; 
+        text-align: center;
       }
-
-      button.accordion.active:after {
-      content: " [\2212] ";
+      p { margin-bottom: 10px; }
+      .social-links a {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 18px;
       }
-      div.panel {
-      padding: 0 20px;
-      margin-top: 5px;
-      display: none;
-      background-color: white;
-      font-size: 100%;
+      .content {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
       }
-      div.panel.show {
-      display: block !important;
-      }
-      .social-row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+      .profile-img {
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
       }
     </style>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Desen Yuan</h1>
-<!--         <p>Algorithm Engineer of ASR Microelectronics Co., Ltd.</p> -->
-<!--         <p>Research Affiliate<br><a href="http://legacy.iza.org/en/webcontent/personnel/photos/index_html?key=24155">Institute for the Study of Labor (IZA)</a></p>
-        <p>Fellow<br><a href="https://glabor.org/user/tyleransom/">Global Labor Organization (GLO)</a></p> -->
-    <h3><a href="https://156aasdfg.github.io/desenyuan.github.io/">Home</a></h3>
-        <h3><a href="https://156aasdfg.github.io/desenyuan.github.io/research.html">Research</a></h3>
-    <h3><a href="https://156aasdfg.github.io/desenyuan.github.io/YDS_CV_Template.pdf">CV</a></h3>  
-<!--         <h3><a href="https://tyleransom.github.io/code.html">Code</a></h3> 
-<!--         <h3><a href="https://tyleransom.github.io/teaching.html">Teaching</a></h3>  -->
-<!--         <h3><a href="https://tyleransom.github.io/personal.html">Personal</a></h3> -->
-    <b>Social</b><br>
-        <div class="social-row">
-          <a href="mailto:desenyuan97@163.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
-          <a href="https://scholar.google.com/citations?user=6oZfAcgAAAAJ&hl=en" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Scholar</a><br>
-<!--           <a href="https://orcid.org/0000-0002-6910-0363"><i class="ai ai-fw ai-orcid-square"></i> ORCID</a><br>
-          <a href="http://ideas.repec.org/f/pra541.html"><i class="ai ai-fw ai-ideas-repec-square"></i> RePEc</a><br> -->
-          <a href="https://github.com/156aasdfg"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
-<!--           <a href="http://twitter.com/tyleransom" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a><br>
-          <br> -->
-        </div>
-        <br>
-
-<!--     <p><b>Contact:</b><br>Department of Economics<br>University of Oklahoma<br>322 CCD1, 308 Cate Center Drive<br>Norman, OK 73072</p>
-    <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
-      </header>
+    <div class="header">
+      <h1>Desen Yuan</h1>
+      <div class="social-links">
+        <a href="mailto:desenyuan97@163.com"><i class="fa fa-envelope"></i> Email</a>
+        <a href="https://scholar.google.com/citations?user=6oZfAcgAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar"></i> Scholar</a>
+        <a href="https://github.com/156aasdfg" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+      </div>
+    </div>
+    
+    <div class="content">
+      <img src="11111111.jpg" class="profile-img" height="300" width="170" alt="Desen Yuan">
+      
       <section>
-      <img src="11111111.jpg" height="500" width="281" alt="Desen Yuan"></h3>
-      <p> I graduated with a Master in <a href="https://en.uestc.edu.cn/info/1015/1414.htm">Communication Engineering</a> from <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China</a> in June 2023 (from 2020 sep to 2023 june).</p>
-      <p>In 2020, I earned my Bachelor’s degree in Telecommunications Engineering from <a href="https://english.cqupt.edu.cn/">Chongqing University of Posts and Telecommunications</a>.</p>
-      <p>My research interests include visual question answering, particularly the issue of language bias in visual question answering, and image quality assessment. I have published papers in relevant journals and conferences, such as ICASSP and ACM MM.
-      <p> Services: 
-      <p>Reviewer of ICRA2025, ACM MM2024, ICASSP2025, TCSVT... 
-      <p>Session Chair of IEEE SMC2024: Affective and Cognitive Computing 1.
+        <h2>Personal Information</h2>
+        <p>I graduated with a Master’s degree in <a href="https://en.uestc.edu.cn/info/1015/1414.htm">Communication Engineering</a> from <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China</a> in June 2023.</p>
+        <p>In 2020, I earned my Bachelor’s degree in Telecommunications Engineering from <a href="https://english.cqupt.edu.cn/">Chongqing University of Posts and Telecommunications</a>.</p>
+      </section>
+      
+      <section>
+        <h2>Research Interests</h2>
+        <p>My research interests include visual question answering, particularly addressing language bias in VQA, and image quality assessment.</p>
+        <p>I have published papers in top-tier conferences and journals, including ICASSP and ACM MM.</p>
+      </section>
+      
+      <section>
+        <h2>Services</h2>
+        <p><strong>Reviewer:</strong> ICRA 2025, ACM MM 2024, ICASSP 2025, TCSVT.</p>
+        <p><strong>Session Chair:</strong> IEEE SMC 2024: Affective and Cognitive Computing 1.</p>
       </section>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
